@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ai-web-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Erich Raschle <erichraschle@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.39.0"
+langchain = "^0.3.3"
+langchain-ollama = "^0.2.0"
+selenium = "^4.25.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+html5lib = "^1.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.9"
+pyright = "^1.1.384"
+ruff-lsp = "^0.0.57"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
